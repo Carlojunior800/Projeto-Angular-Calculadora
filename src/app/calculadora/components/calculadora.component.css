@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#titulo {
+    font-size: 8vh;
+    font-family: Cambria, Cochin, serif;
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+
+#calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2vh;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px 0 3px 12px;
+    background-color: rgb(31, 31, 31);
+    border: 2vh 2vh;
+    border-radius: 5vh;
+    color: #fff;
+}
+#btnApagar {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px 0 3px 12px;
+    background-color: rgb(224, 35, 35);
+    border: 2vh 2vh;
+    border-radius: 5vh;
+    color: #fff;
+}
+#btnIgual {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px 0 3px 12px;
+    background-color: rgb(71, 150, 6);
+    border: 2vh 2vh;
+    border-radius: 5vh;
+    color: #fff;  
+}
+.botao:hover {
+    background-color: black;
+}
+
+#btnApagar:hover {
+    background-color: rgb(156, 9, 9);   
+}
+
+#btnIgual:hover {
+    background-color: rgb(31, 68, 0);
+}
+
+
+.botao2:hover {
+    background-color: black;
+}
+
+#display {
+    background-color: white;
+    width: 300px;
+    height: 6vh;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+.hide {
+    display: none;
+}
